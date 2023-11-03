@@ -11,15 +11,21 @@ header {
   color: white;
 }
 
+hr {
+  color: gray;
+}
+
 ul,
 li {
   background-color: #141414;
   padding: 0 !important;
 }
+
 .bi {
   color: white;
   font-size: 1.2rem;
 }
+
 #switchUser {
   background-color: transparent;
   border: none;
@@ -43,6 +49,10 @@ li {
   min-width: 5px !important;
 }
 
+#trendingNow {
+  margin-bottom: 10rem;
+}
+
 .video {
   transition: 0.2s;
   cursor: pointer;
@@ -51,4 +61,26 @@ li {
 .video:hover {
   transform: scale(1.5);
   z-index: 3;
+}
+
+.newReleases {
+  margin-bottom: 10rem;
+}
+
+footer .bi {
+  color: gray;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+footer a,
+footer {
+  color: gray;
+}
+
+footer p:last-child {
+  font-size: 0.9rem;
+}
+.gray {
+  color: gray;
 }
