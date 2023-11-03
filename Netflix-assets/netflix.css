@@ -86,3 +86,16 @@ footer p:last-child {
 }
 
 /* Profile Page */
+
+.bi-pencil-fill {
+  bottom: 10px;
+  left: 10px;
+  background-color: black;
+  border: 1px solid white;
+  padding: 0.1rem 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+hr {
+  color: gray;
+}
