@@ -99,7 +99,27 @@ footer p:last-child {
 hr {
   color: gray;
 }
-/* Checkbox */
+
+#accountName {
+  color: white;
+  background-color: rgb(95, 95, 95);
+  padding-left: 1rem;
+}
+
+.gray {
+  color: gray;
+}
+
+#maturityRatings {
+  background-color: rgb(47, 47, 47);
+}
+
+.button {
+  color: gray;
+  border-color: gray;
+}
+
+/*Checkbox*/
 
 .checkContainer {
   display: block;
@@ -139,4 +159,32 @@ hr {
 
 .checkContainer input:checked ~ .checkmark {
   background-color: #2195f300;
+}
+
+/*checkmark/indicator*/
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkContainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkContainer .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid gray;
+  border-width: 0 3px 3px 0;
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media screen and (min-width: 576px) {
+  .profileContainer {
+    width: 50%;
+  }
 }
